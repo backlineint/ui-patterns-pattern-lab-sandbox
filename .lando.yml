@@ -1,0 +1,9 @@
+name: uippl-sandbox
+recipe: drupal8
+config:
+  webroot: web
+services:
+  appserver:
+    xdebug: true
+  database:
+    type: mysql:5.7

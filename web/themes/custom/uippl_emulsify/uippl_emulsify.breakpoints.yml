@@ -1,0 +1,16 @@
+# Breakpoints - change based on site need
+uippl_emulsify.large:
+  label: large
+  mediaQuery: 'all and (min-width: 61.25em)'
+uippl_emulsify.medium:
+  label: medium
+  mediaQuery: 'all and (min-width: 48em)'
+uippl_emulsify.small-large:
+  label: small-large
+  mediaQuery: 'all and (min-width: 41em)'
+uippl_emulsify.small-med:
+  label: small-med
+  mediaQuery: 'all and (min-width: 26em)'
+uippl_emulsify.small:
+  label: small
+  mediaQuery: 'all and (min-width: 25em)'

@@ -1,4 +1,4 @@
-name: uippl_uippl_emulsify
+name: uippl_emulsify
 type: theme
 description: UI Patterns Pattern Lab Emulsify Test Theme
 base theme: stable
@@ -43,24 +43,21 @@ regions:
 # `$sourceDir` = defined in `pattern-lab/config/config.yml` under `sourceDir
 # patterns folder = `$sourceDir` + `_patterns/`
 component-libraries:
-  testing:
+  base:
     paths:
       - components/_patterns/00-base
-  #base:
-  #  paths:
-  #    - components/_patterns/00-base
-  #atoms:
-  #  paths:
-  #    - components/_patterns/01-atoms
-  #molecules:
-  #  paths:
-  #    - components/_patterns/02-molecules
-  #organisms:
-  #  paths:
-  #    - components/_patterns/03-organisms
-  #templates:
-  #  paths:
-  #    - components/_patterns/04-templates
-  #pages:
-  #  paths:
-  #    - components/_patterns/05-pages
+  atoms:
+    paths:
+      - components/_patterns/01-atoms
+  molecules:
+    paths:
+      - components/_patterns/02-molecules
+  organisms:
+    paths:
+      - components/_patterns/03-organisms
+  templates:
+    paths:
+      - components/_patterns/04-templates
+  pages:
+    paths:
+      - components/_patterns/05-pages

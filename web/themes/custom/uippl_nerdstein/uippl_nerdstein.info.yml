@@ -1,0 +1,45 @@
+name: Nerdstein Design Library
+type: theme
+description: 'Test theme using Nerdstein Design Library pattern lab'
+package: Other
+core: 8.x
+libraries:
+  - uippl_nerdstein/global-styling
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+
+component-libraries:
+  atoms:
+    paths:
+      - nerdstein-design-library/design-library/source/_patterns/01-atoms
+  #molecules:
+  #  paths:
+  #    - nerdstein-design-library/design-library/source/_patterns/02-molecules
+  #organisms:
+  #  paths:
+  #    - nerdstein-design-library/design-library/source/_patterns/03-organisms
+  #pages:
+  #  paths:
+  #    - nerdstein-design-library/design-library/source/_patterns/04-pages

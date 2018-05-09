@@ -1,0 +1,4 @@
+global-styling:
+  css:
+    theme:
+      nerdstein-design-library/design-library/source/css/style.css: {}

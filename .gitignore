@@ -24,3 +24,6 @@
 /.env
 
 /web/modules/custom/ui_patterns_pattern_lab
+
+# Ignore db exports.
+drupal8.*.gz

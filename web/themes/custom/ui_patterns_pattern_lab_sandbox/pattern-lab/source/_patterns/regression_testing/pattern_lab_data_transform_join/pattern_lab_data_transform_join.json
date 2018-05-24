@@ -1,0 +1,19 @@
+{
+  "key": {
+    "join()": [
+      "<div class=\"indented\">",
+      "<p>Below we join together two patterns inside of custom markup:</p>",
+      {
+        "include()": {
+          "pattern": "regression_testing-join_item"
+        }
+      },
+      {
+        "include()": {
+          "pattern": "regression_testing-join_item"
+        }
+      },
+      "</div>"
+    ]
+  }
+}

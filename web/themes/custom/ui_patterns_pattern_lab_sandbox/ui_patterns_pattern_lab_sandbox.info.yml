@@ -28,3 +28,8 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
+
+component-libraries:
+  patternlab:
+    paths:
+      - pattern-lab/source/_patterns

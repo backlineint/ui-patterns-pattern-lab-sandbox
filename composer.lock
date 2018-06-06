@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51e4a7d67089e51a9cefa4357e5152f0",
+    "content-hash": "ec2af943d7d335aa361e6ddfa7b0fda6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3084,6 +3084,27 @@
             "time": "2017-09-04T12:26:28+00:00"
         },
         {
+            "name": "nerdstein/nerdstein-design-library",
+            "version": "0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nerdstein/nerdstein-design-library.git",
+                "reference": "7f6f00e1532a92c6a70c29901c22cc33afdb978d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nerdstein/nerdstein-design-library/zipball/7f6f00e1532a92c6a70c29901c22cc33afdb978d",
+                "reference": "7f6f00e1532a92c6a70c29901c22cc33afdb978d",
+                "shasum": ""
+            },
+            "type": "design-library",
+            "support": {
+                "source": "https://github.com/nerdstein/nerdstein-design-library/tree/0.7",
+                "issues": "https://github.com/nerdstein/nerdstein-design-library/issues"
+            },
+            "time": "2017-11-18T04:53:10+00:00"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "1.28.0",
             "source": {
@@ -3538,6 +3559,53 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "slowprog/composer-copy-file",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slowprog/CopyFile.git",
+                "reference": "400c2b7c9f9f8ed8195217ae143ffbf3fec84c31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slowprog/CopyFile/zipball/400c2b7c9f9f8ed8195217ae143ffbf3fec84c31",
+                "reference": "400c2b7c9f9f8ed8195217ae143ffbf3fec84c31",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "~5.0",
+                "symfony/filesystem": "~2.7",
+                "symfony/finder": "~2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SlowProg\\CopyFile\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Tyshev",
+                    "email": "slowprog@gmail.com"
+                }
+            ],
+            "description": "Composer script copying your files after install",
+            "homepage": "https://github.com/SlowProg/composer-copy-file",
+            "keywords": [
+                "copy file"
+            ],
+            "time": "2017-12-07T13:18:47+00:00"
         },
         {
             "name": "spatie/yaml-front-matter",

@@ -13,6 +13,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:nerdstein/nerdstein-design-library.git"
         }
     ],
     "require": {
@@ -26,6 +30,8 @@
         "drupal/ui_patterns": "^1.0",
         "drush/drush": "^9.0.0",
         "fourkitchens/emulsify": "^2.2",
+        "nerdstein/nerdstein-design-library": "^0.7.0",
+        "slowprog/composer-copy-file": "^0.2.1",
         "spatie/yaml-front-matter": "^2.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
@@ -57,10 +63,12 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
         ]
     },
     "extra": {
@@ -71,6 +79,9 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "copy-file": {
+            "vendor/nerdstein/nerdstein-design-library/design-library/": "web/themes/custom/uippl_nerdstein/design-library"
         }
     }
 }

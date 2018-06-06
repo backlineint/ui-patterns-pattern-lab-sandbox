@@ -33,7 +33,7 @@ regions:
 component-libraries:
   atoms:
     paths:
-      - nerdstein-design-library/design-library/source/_patterns/01-atoms
+      - design-library/source/_patterns/01-atoms
   #molecules:
   #  paths:
   #    - nerdstein-design-library/design-library/source/_patterns/02-molecules

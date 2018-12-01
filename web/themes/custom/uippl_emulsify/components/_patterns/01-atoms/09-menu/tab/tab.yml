@@ -4,5 +4,7 @@ tab_link:
   "#"
 tab_text:
   "View"
-ui_pattern_definition:
-  ignore: true
+link:
+  '#title': "Title"
+  '#url': "http://yahoo.com"
+link_classes: "myclass"

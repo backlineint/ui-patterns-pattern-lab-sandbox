@@ -1,7 +1,7 @@
 {
   "items": {
     "include()": {
-      "pattern": "regression_testing-list_item",
+      "pattern": "regressiontesting-list-item",
       "with": {
         "title": "Textfield label"
       },

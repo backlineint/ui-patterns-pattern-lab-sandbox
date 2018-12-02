@@ -7,3 +7,9 @@ services:
     xdebug: true
   database:
     type: mysql:5.7
+tooling:
+  behat:
+    service: appserver
+    description: Run behat tests locally.
+    cmd:
+      - /app/vendor/bin/behat

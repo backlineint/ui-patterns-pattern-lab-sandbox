@@ -32,6 +32,7 @@
         "drush/drush": "^9.0.0",
         "fourkitchens/emulsify": "^2.2",
         "guzzlehttp/guzzle": "^6.0@dev",
+        "michelf/php-markdown": "^1.8",
         "nerdstein/nerdstein-design-library": "^0.7.0",
         "slowprog/composer-copy-file": "^0.2.1",
         "spatie/yaml-front-matter": "^2.0",
